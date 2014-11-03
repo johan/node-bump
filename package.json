@@ -5,9 +5,9 @@
     "url": "http://nailik.org"
   },
   "name": "bump",
-  "main": "./bump",
+  "main": "./lib/bump",
   "bin": {
-    "bump": "./bump.js"
+    "bump": "./lib/bump.js"
   },
   "version": "0.2.6",
   "repository": {
@@ -16,11 +16,21 @@
   },
   "contributors": [
     {
+      "name": "Johan Sundström",
+      "email": "oyasumi@gmail.com"
+    },
+    {
       "name": "Jacob Friis Saxberg",
       "email": "jacob@saxberg.dk"
     }
   ],
   "dependencies": {
-    "semver": "^2.2.1"
+    "semver": "4.1.0",
+    "request": "2.47.0",
+    "format-json": "1.0.3",
+    "commander": "2.5.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.8.0"
   }
 }
